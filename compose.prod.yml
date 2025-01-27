@@ -1,0 +1,7 @@
+services:
+  server:
+    build:
+      context: ./server
+      target: prod
+    ports:
+      - "8090:8090"
